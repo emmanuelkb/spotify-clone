@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  font-weight: 400;
+}
+.signuppage {
+  max-width: 450px;
+  margin: 0px auto;
+  padding-bottom: 130px;
+}
+
+.signuppage .logo2 {
+  text-align: center;
+}
+.logo2 img {
+  height: auto;
+  width: 125px;
+  margin-top: 30px;
+}
+
+/* .signupmain {
+  text-align: center;
+} */
+
+.linewithor {
+  border-bottom: 1px solid #d9dadc;
+  line-height: 0.1;
+  text-align: center;
+  width: 100%;
+}
+
+.linewithor span {
+  padding: 0 10px;
+  background-color: white;
+}
+
+.signupform {
+  display: flex;
+  flex-direction: column;
+}
+
+.dobColumn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.fbbutton {
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 88, 151);
+  margin-bottom: 20px;
+}
+
+.signupbutton {
+  color: rgb(255, 255, 255);
+  background-color: #1ed760;
+}
+
+.button {
+  border-radius: 500px;
+  border: none;
+  padding: 14px 32px;
+  font-size: 14px;
+  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.inputBoxes {
+  padding: 14px;
+  border: none;
+  box-shadow: rgb(189 189 189) 0px 0px 0px 1px inset;
+  margin-bottom: 24px;
+  /* border-color: rgb(189, 189, 189); */
+}
+
+.bottomp {
+  position: relative;
+  text-align: center;
+}
+
+.dobinput {
+  margin-top: 8px;
+}
+
+.month {
+  border-radius: 4px;
+  padding: 13px 44px 13px 14px;
+  width: 100%;
+  color: rgb(117, 117, 117);
+  border: 0px;
+  box-shadow: rgb(189 189 189) 0px 0px 0px 1px inset;
+}
+
+.day,
+.year {
+  border-radius: 4px;
+  width: 100%;
+  padding: 14px;
+
+  border: none;
+  box-shadow: rgb(189 189 189) 0px 0px 0px 1px inset;
+}
+
+h2 {
+  margin-top: 40px;
+  /* margin-bottom: 10px; */
+}
+
+h3 {
+  padding-bottom: 18px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.formLabel {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.labelExcept {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-top: -20px;
+}
+
+.doblabels {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-top: -10px;
+}
+
+.monthcolumn,
+.daycolumn {
+  margin-right: 30px;
+}
+
+.genderradio {
+  margin-top: 15px;
+}
+
+.genderLabel {
+  padding: 0px 12px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.checkboxLabel {
+  padding: 0px 12px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.checkboxdiv {
+  margin-top: 24px;
+}
+
+#bottomP {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+}

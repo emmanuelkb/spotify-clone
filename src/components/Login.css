@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.loginpage {
+  text-align: center;
+}
+.loginMain {
+  max-width: 450px;
+  margin: 0px auto;
+  padding-bottom: 130px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.loginpage .logo2 img {
+  height: auto;
+  width: 125px;
+}
+
+.lineWithOr {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #d9dadc;
+  line-height: 0.1em;
+  margin-bottom: 30px;
+}
+
+.lineWithOr span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+button {
+  border-radius: 500px;
+  border: none;
+  padding: 14px 32px;
+  font-size: 14px;
+  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.fbbutton {
+  color: rgb(255, 255, 255);
+  background-color: rgb(58, 88, 151);
+  margin-bottom: 20px;
+}
+
+.applebutton {
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  background-color: black;
+}
+
+.googlebutton,
+.pnbutton,
+.signupButton {
+  color: #616467;
+  margin-bottom: 20px;
+  border: 2px solid #616467;
+  background-color: transparent;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.loginButton {
+  width: 50%;
+  color: rgb(255, 255, 255);
+  background-color: #1ed760;
+}
+
+.checkSubmit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkboxDiv {
+  margin: auto;
+  margin-left: 0px;
+}
+
+input {
+  padding: 14px;
+  border: none;
+  box-shadow: rgb(189 189 189) 0px 0px 0px 1px inset;
+  margin-bottom: 24px;
+}
+
+.hr2 {
+  width: 100%;
+  margin-top: 20px;
+}

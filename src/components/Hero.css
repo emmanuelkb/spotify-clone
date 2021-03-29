@@ -1,0 +1,43 @@
+.hero_component {
+  position: relative;
+  margin-top: -105px;
+  background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+  background-size: 175%;
+  background-position: 46% 4%;
+  /* justify-content: center; */
+  min-height: 846px;
+  background-color: rgb(41, 65, 171);
+  color: #1ed760;
+  text-align: center;
+  height: 100vh;
+}
+
+.hero_component .spotifyBtn {
+  border-radius: 500px;
+  border: none;
+  color: rgb(41, 65, 171);
+  background-color: #1ed760;
+  font-size: inherit;
+  padding: 14px 32px;
+  margin-top: -10px;
+  font-size: 14px;
+  font-weight: bold;
+  width: inherit;
+}
+.hero_component h1 {
+  width: 800px;
+  font-size: 156px;
+  text-indent: -3.3em;
+  transform: translate(400px, 0px);
+  line-height: 166px;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+.hero_component p {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 40px;
+  margin-top: -75px;
+  font-weight: 500;
+}

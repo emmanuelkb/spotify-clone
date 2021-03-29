@@ -1,0 +1,21 @@
+.FooterBottomNav {
+  display: flex;
+  padding: 0 30px;
+  justify-content: space-between;
+  color: gray;
+  background-color: black;
+  height: 10vh;
+  margin-top: -90px;
+}
+
+.FooterBottomNav1 {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.FooterBottomNav2 {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}

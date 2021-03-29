@@ -1,0 +1,54 @@
+.Footer {
+  display: flex;
+  /* flex-wrap: wrap; */
+  background-color: black;
+  color: white;
+  height: 70vh;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.FooterBlock {
+  display: flex;
+  width: 50%;
+}
+
+.FooterBlockItems {
+  margin: 0px 40px;
+}
+.FooterBlockItems h5 {
+  color: gray;
+}
+.FooterBlockItems a {
+  text-decoration: none;
+  color: white;
+}
+
+.FooterProp :hover {
+  color: #1ed760;
+}
+
+.sociali {
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+}
+.sociali .socialiBtn {
+  border-radius: 50%;
+  background-color: #222326;
+  width: 54px;
+  height: 54px;
+  border: none;
+  margin: 0px 10px;
+}
+
+.sociali .socialiBtn i {
+  color: white;
+  width: 14px;
+  height: 14px;
+  font-size: 20px;
+}
+
+.sociali .socialiBtn :hover {
+  color: #1ed760;
+}
