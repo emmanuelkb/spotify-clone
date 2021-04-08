@@ -45,6 +45,6 @@
   color: white;
 }
 
-.navbar .navbar-inner .links li :hover {
+.navbar .navbar-inner .links :hover {
   color: #1ed760;
 }

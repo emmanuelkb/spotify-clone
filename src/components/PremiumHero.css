@@ -1,0 +1,144 @@
+.premiumHero .premiumSectOne {
+  width: 100%;
+  height: auto;
+  background-color: rgb(29, 117, 222);
+  color: white;
+  margin-top: -27px;
+  padding-left: 89.5px;
+  padding-right: 89.5px;
+}
+.premiumHero .premiumSectOne h1 {
+  font-size: 40px;
+  width: auto;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.25px;
+  padding-top: 72px;
+  padding-bottom: 40px;
+}
+
+.premiumHero .premiumSectOne h2 {
+  line-height: 1.5;
+  margin: -15px 0px 0px;
+  padding: 0px;
+  max-width: 100%;
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: 0.25px;
+}
+
+.premiumSectOneButt {
+  display: flex;
+  margin: 35px 0px 0px;
+}
+
+.premiumSectOneButt button {
+  border-radius: 500px;
+  font-size: inherit;
+  padding: 17px 48px;
+  width: auto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  align-self: center;
+}
+.premiumSectOneButt .button1 {
+  background-color: black;
+  color: white;
+}
+
+.premiumSectOneButt .button2 {
+  background-color: inherit;
+  color: white;
+  margin-left: 20px;
+}
+
+.premiumSectOneButt .button2:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  background-color: #1a69c7;
+}
+
+.premiumSectOneFoot {
+  font-size: 12px;
+  margin: 0px auto;
+  padding-top: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 35px;
+}
+
+.premiumSectTwo {
+  padding: 55px 0px;
+  padding-left: 89.5px;
+  padding-right: 89.5px;
+}
+.premiumSectTwo h1 {
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  letter-spacing: -0.015em;
+  font-weight: 900;
+  padding: 0px;
+}
+
+.premiumSectTwoImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.premiumSectTwoImg img {
+  width: 142px;
+  height: 142px;
+}
+
+.premiumSectTwoImg .p1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 21px;
+  padding: 0px;
+  line-height: 1.3em;
+}
+
+.premiumSectTwoImg .p2 {
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 0px;
+}
+
+.premiumSectThree {
+  padding: 55px 0px;
+  background: rgb(239, 239, 239);
+  padding-left: 89.5px;
+  padding-right: 89.5px;
+}
+
+.premiumSectThree h1 {
+  font-size: 40px;
+  letter-spacing: -1.6px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.premiumSectThree .topP {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 10px 0px;
+  text-align: center;
+  padding: 0px;
+}
+
+.premiumSectThree .plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

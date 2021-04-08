@@ -42,6 +42,10 @@ button {
   letter-spacing: 2px;
   width: 100%;
 }
+button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
 
 .fbbutton {
   color: rgb(255, 255, 255);
@@ -62,6 +66,14 @@ button {
   margin-bottom: 20px;
   border: 2px solid #616467;
   background-color: transparent;
+}
+
+.googlebutton:hover,
+.pnbutton:hover,
+.signupButton:hover {
+  transform: none;
+  background-color: grey;
+  color: white;
 }
 
 .loginForm {

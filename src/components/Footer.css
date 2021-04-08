@@ -39,7 +39,8 @@
   width: 54px;
   height: 54px;
   border: none;
-  margin: 0px 10px;
+  margin: 0px 8px;
+  padding: 0px;
 }
 
 .sociali .socialiBtn i {

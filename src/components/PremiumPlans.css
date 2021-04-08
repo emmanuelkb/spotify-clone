@@ -1,0 +1,74 @@
+.plan {
+  /* width: auto; */
+  color: black;
+  box-shadow: 0 2px 7px 2px rgb(196, 193, 193);
+  background: white;
+  padding: 20px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  max-width: 250px;
+  margin-bottom: 1.5rem;
+
+  height: 750px;
+}
+
+.plan .header1 {
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 4px 8px;
+  /* display: inline-block; */
+  font-weight: 900;
+  margin: 0px 4px 10px 0px;
+  /* margin-block: 0px 10px; */
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 119, 208);
+}
+
+.plan .header2 {
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 4px 8px;
+  /* display: inline-block; */
+  font-weight: 900;
+  margin: 0px 4px 10px 0px;
+  margin-block: 0px 10px;
+  color: rgb(46, 119, 208);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(46, 119, 208);
+}
+
+.plan .header2:empty {
+  display: none;
+}
+
+.plan .sectOne {
+  height: 30%;
+}
+
+.plan .sectTwo {
+  height: 40%;
+}
+
+.plan .sectThree {
+  height: 5%;
+  margin: -40px;
+}
+
+.plan .type {
+  margin-top: 0px;
+}
+.plan .amount {
+  margin-top: -20px;
+}
+.plan .accounts {
+  margin-top: 0px;
+}
+.plan .items {
+}
+
+.plan .planButton {
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  background-color: black;
+  text-transform: uppercase;
+}

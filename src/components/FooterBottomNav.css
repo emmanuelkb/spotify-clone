@@ -6,16 +6,17 @@
   background-color: black;
   height: 10vh;
   margin-top: -90px;
+  font-size: 12px;
 }
 
 .FooterBottomNav1 {
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .FooterBottomNav2 {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: flex-end;
 }

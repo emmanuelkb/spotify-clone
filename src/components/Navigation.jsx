@@ -6,6 +6,7 @@ const Navigation = () => {
       <NavigationItems name="Support" />
       <NavigationItems name="Download" />
       <p>| </p>
+
       <NavigationItems name="Sign Up" />
       <NavigationItems name="Log in" />
     </ul>

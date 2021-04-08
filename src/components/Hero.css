@@ -23,7 +23,14 @@
   font-size: 14px;
   font-weight: bold;
   width: inherit;
+  outline: none;
 }
+.hero_component .spotifyBtn:hover {
+  transition: border-color 200ms ease-in 0s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 .hero_component h1 {
   width: 800px;
   font-size: 156px;

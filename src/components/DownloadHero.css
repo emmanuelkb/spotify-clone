@@ -1,0 +1,112 @@
+.DownloadHeroSectOne {
+  text-align: center;
+  background-color: rgb(25, 230, 140);
+  padding: 40px 15px 104px;
+}
+
+.DownloadHeroSectOneImg img {
+  width: 136px;
+  margin-bottom: 40px;
+  margin-top: 64px;
+  position: relative;
+  margin: 25px 15px 15px;
+  text-align: center;
+}
+
+.DownloadHeroSectOne .img2 {
+  position: absolute;
+  width: 2%;
+  top: 27%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.DownloadHeroSectOne .img1 {
+  width: 100%;
+}
+
+.DownloadHeroSectOne .img3 {
+  position: absolute;
+  width: 1%;
+  top: 27%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.DownloadHeroSectOne h1 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.DownloadHeroSectOne p {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.DownloadHeroSectOne button {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: inherit;
+}
+
+.DownloadHeroSectTwo {
+  text-align: center;
+}
+.DownloadHeroSectTwo h1 {
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+}
+
+.DownloadHeroSectTwo p {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.DownloadHeroSectTwoImg img {
+  margin: 10px;
+  padding-bottom: 50px;
+}
+
+.DownloadHeroSectThree {
+  background-color: rgb(34, 35, 38);
+  padding: 70px 15px 50px;
+  text-align: center;
+}
+
+.DownloadHeroSectThree img {
+  width: 500px;
+}
+
+.DownloadHeroSectThree p {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.DownloadHeroSectThreeList ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: disc;
+  color: green;
+  padding: 20px;
+  margin: 20px;
+}

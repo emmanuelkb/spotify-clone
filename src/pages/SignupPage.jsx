@@ -1,5 +1,6 @@
 import Logo2 from "../components/Logo2";
-import "../components/Signup.css";
+import "./Signup.css";
+import { Link } from "react-router-dom";
 
 const SignupPage = () => {
   return (
@@ -16,7 +17,13 @@ const SignupPage = () => {
           <label className="formLabel" htmlFor="email">
             What's your email?
           </label>
-          <input class="inputBoxes" type="email" name="email" id="email" />
+          <input
+            class="inputBoxes"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email."
+          />
           <label className="formLabel" htmlFor="confirmemail">
             Confirm your email?
           </label>
@@ -25,6 +32,7 @@ const SignupPage = () => {
             type="email"
             name="confirmemail"
             id="confirmemail"
+            placeholder="Enter your email again."
           />
           <label className="formLabel" htmlFor="password">
             Create a password
@@ -34,6 +42,7 @@ const SignupPage = () => {
             type="password"
             name="password"
             id="password"
+            placeholder="Create a password."
           />
           <label className="formLabel" htmlFor="profilename">
             What should we call you?
@@ -43,6 +52,7 @@ const SignupPage = () => {
             type="text"
             name="profilename"
             id="profilename"
+            placeholder="Enter a profile name."
           />
           <label className="formLabel labelExcept">
             This appears on your profile
@@ -117,15 +127,28 @@ const SignupPage = () => {
               What's your gender
             </label>
             <div className="genderradio">
-              <input type="radio" name="gender" id="male" value="Male" />
+              <input
+                className="radioBtn"
+                type="radio"
+                name="gender"
+                id="male"
+                value="Male"
+              />
               <label className="genderLabel" htmlFor="male">
                 Male
               </label>
-              <input type="radio" name="gender" id="female" value="Female" />
+              <input
+                className="radioBtn"
+                type="radio"
+                name="gender"
+                id="female"
+                value="Female"
+              />
               <label className="genderLabel" htmlFor="female">
                 Female
               </label>
               <input
+                className="radioBtn"
                 type="radio"
                 name="gender"
                 id="nonbinary"
@@ -155,7 +178,7 @@ const SignupPage = () => {
           <button className=" signupbutton button">SIGN UP</button>
         </form>
         <p className="bottomp">
-          Have an account? <span>Log in.</span>
+          Have an account? <Link to="/login">Log in.</Link>
         </p>
       </div>
     </div>
